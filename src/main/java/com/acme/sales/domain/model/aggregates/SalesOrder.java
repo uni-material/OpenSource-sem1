@@ -81,4 +81,8 @@ public class SalesOrder {
     public void clearItems(){
         this.items.clear();
     }
+
+    public String getShippingAddressAsString(){
+        return shippingAddress.getAddressAsString();
+    }
 }
